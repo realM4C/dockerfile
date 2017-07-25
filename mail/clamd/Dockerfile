@@ -2,7 +2,7 @@ FROM alpine
 LABEL maintainer "AMSSN <info@amssn.eu>"
 
 ADD data /tmp/
-RUN ls -lah /tmp ; chmod +x /tmp/data/*.sh ; /tmp/data/setup.sh
+RUN chmod +x /tmp/*.sh ; /tmp/setup.sh
 
 # port provision
 EXPOSE 3310
