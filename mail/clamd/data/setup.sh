@@ -1,10 +1,10 @@
 #!/bin/bash
 apk add --no-cache clamav clamav-libunrar clamav-daemon bash curl
-cp /tmp/data/entry.sh /entry.sh
+cp /tmp/entry.sh /entry.sh
 
 # pre-download defintions
 set -ex
-/tmp/data/dl_files.sh
+/tmp/dl_files.sh
 apk del curl
 
 # permission juggling
