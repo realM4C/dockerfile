@@ -9,5 +9,11 @@ ClamAV Subcontainer on AlpineLinux for HA-Mail-Cluster
 
 docker run -d --name=mail-clamd mail-clamd
 
-Use your own config with: 
+Use your own config directory with: 
+
 docker run -d --name=mail-clamd --volume=/path-to-configs/:/etc/clamav/ mail-clamd
+
+
+Use your own log directory with: 
+
+docker run -d --name=mail-clamd --volume=/path-to-logs/:/var/log/clamav/ mail-clamd
