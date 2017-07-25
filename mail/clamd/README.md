@@ -1,5 +1,5 @@
 # mail-clamd
-ClamAV Subcontainer on AlpineLinux for HA-Cluster
+ClamAV Subcontainer on AlpineLinux for HA-Mail-Cluster
 
 [![](https://images.microbadger.com/badges/image/amssn/mail-clamd.svg)](https://microbadger.com/images/amssn/mail-clamd "Get your own image badge on microbadger.com")
 
