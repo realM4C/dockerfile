@@ -6,3 +6,8 @@ ClamAV Subcontainer on AlpineLinux for HA-Mail-Cluster
 [![](https://images.microbadger.com/badges/version/amssn/mail-clamd.svg)](https://microbadger.com/images/amssn/mail-clamd "Get your own version badge on microbadger.com")
 
 # Usage:
+
+docker run -d --name=mail-clamd mail-clamd
+
+Use your own config with: 
+docker run -d --name=mail-clamd --volume=/path-to-configs/:/etc/clamav/ mail-clamd
