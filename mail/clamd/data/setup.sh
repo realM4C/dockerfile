@@ -4,7 +4,7 @@ cp /tmp/entry.sh /entry.sh
 # pre-download defintions
 set -ex
 /tmp/dl_files.sh
-apk del curl
+apk del --no-cache curl
 
 # permission juggling
 mkdir -p /run/clamav
