@@ -1,5 +1,6 @@
 #!/bin/bash
 apk add --no-cache clamav clamav-libunrar clamav-daemon bash curl
+cp /tmp/data/entry.sh /entry.sh
 
 # pre-download defintions
 set -ex
