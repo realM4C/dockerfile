@@ -1,8 +1,8 @@
 #!/bin/bash
-cp /tmp/entry.sh /entry.sh
 
 # pre-download defintions
 set -ex
+cp /tmp/entry.sh /entry.sh
 /tmp/dl_files.sh
 apk del --no-cache curl
 
