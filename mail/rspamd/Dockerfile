@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:edge
 LABEL maintainer "AMSSN <info@amssn.eu>"
 ENV TZ='Europe/Berlin'
 
