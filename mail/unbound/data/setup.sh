@@ -5,7 +5,7 @@ cp /tmp/entry.sh /entry.sh
 cp /tmp/unbound.conf /etc/unbound.conf
 mkdir /etc/unbound/conf.d
 
-unbound-anchor -a /etc/unbound/root.key -v
+unbound-anchor -a /etc/unbound/root.key -v ; true
 unbound-control-setup
 curl -s ftp://ftp.internic.net/domain/named.cache > /etc/unbound/root.hints
 
