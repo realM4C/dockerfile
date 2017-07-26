@@ -3,6 +3,7 @@
 # pre-download defintions
 set -ex
 apk add --no-cache unbound bash curl openssl tzdata
+cp /usr/share/zoneinfo/${TZ} /etc/localtime
 cp /tmp/entry.sh /entry.sh
 /tmp/dl_files.sh
 apk del --no-cache curl
