@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TZ=${TZ:"Europe/Berlin"}
+TZ=${TZ:-"Europe/Berlin"}
 cp /usr/share/zoneinfo/${TZ} /etc/localtime
 
 DO_IPV6=${DO_IPV6:-yes}
