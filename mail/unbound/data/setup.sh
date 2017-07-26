@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 
 set -ex
+apk add --no-cache unbound bash curl openssl tzdata
+cp /usr/share/zoneinfo/${TZ} /etc/localtime
 cp /tmp/entry.sh /entry.sh
 cp /tmp/unbound.conf /etc/unbound/unbound.conf
 mkdir /etc/unbound/conf.d
