@@ -2,7 +2,7 @@ FROM alpine
 LABEL maintainer "AMSSN <info@amssn.eu>"
 
 ADD data /tmp/
-RUN apk add --no-cache unbound bash
+RUN apk add --no-cache unbound bash curl
 RUN chmod +x /tmp/*.sh ; /tmp/setup.sh
 
 # port provision
