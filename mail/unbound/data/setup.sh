@@ -2,7 +2,7 @@
 
 set -ex
 cp /tmp/entry.sh /entry.sh
-cp /tmp/unbound.conf /etc/unbound.conf
+cp /tmp/unbound.conf /etc/unbound/unbound.conf
 mkdir /etc/unbound/conf.d
 
 [[ $(unbound-anchor -a /etc/unbound/root.key -v) ]]
