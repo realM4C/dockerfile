@@ -1,5 +1,6 @@
 FROM alpine
 LABEL maintainer "AMSSN <info@amssn.eu>"
+ENV TZ="Europe/Berlin"
 
 ADD data /tmp/
 RUN apk add --no-cache clamav clamav-libunrar clamav-daemon bash curl
