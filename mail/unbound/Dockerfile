@@ -6,7 +6,7 @@ RUN apk add --no-cache unbound bash curl
 RUN chmod +x /tmp/*.sh ; /tmp/setup.sh
 
 # port provision
-EXPOSE 53/udp 53/tcp
+EXPOSE 53/udp 53/tcp 8953/tcp
 
 # av daemon bootstrapping
 CMD ["/entry.sh"]
