@@ -1,7 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 
 # pre-download defintions
 set -ex
+apk add --no-cache unbound bash curl openssl tzdata
 cp /tmp/entry.sh /entry.sh
 /tmp/dl_files.sh
 apk del --no-cache curl
