@@ -1,5 +1,5 @@
 # mail-rspamd
-rspamd Subcontainer on AlpineLinux for HA-Mail-Cluster
+rspamd Subcontainer on Debian Jessie Slim for HA-Mail-Cluster
 
 [![](https://images.microbadger.com/badges/image/amssn/mail-rspamd.svg)](https://microbadger.com/images/amssn/mail-rspamd "Get your own image badge on microbadger.com")
 
