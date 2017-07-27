@@ -8,4 +8,5 @@ RUN chmod +x /tmp/*.sh ; /tmp/setup.sh
 # port provision
 EXPOSE 6379/tcp
 
-CMD [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
+#CMD [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
+CMD [ "redis-server" ]
