@@ -6,7 +6,7 @@ ADD data /tmp/
 RUN chmod +x /tmp/*.sh ; /tmp/setup.sh
 
 # port provision
-EXPOSE 53/udp 53/tcp 8953/tcp
+EXPOSE 11333/tcp
 
 # av daemon bootstrapping
 CMD ["/entry.sh"]
