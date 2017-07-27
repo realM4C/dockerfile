@@ -6,6 +6,6 @@ ADD data /tmp/
 RUN chmod +x /tmp/*.sh ; /tmp/setup.sh
 
 # port provision
-EXPOSE 53/udp 53/tcp 8953/tcp
+EXPOSE 6379/tcp
 
 CMD [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
