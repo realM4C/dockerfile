@@ -9,6 +9,10 @@ redis Subcontainer on AlpineLinux for HA-Mail-Cluster
 
 docker run -d --name=mail-redis amssn/mail-redis
 
+Run with own Data Directory:
+
+docker run -d --name=mail-redis --volume /srv/mail/redis/data:/data amssn/mail-redis
+
 
 # Furhter Information:
 See: https://hub.docker.com/r/library/redis/
