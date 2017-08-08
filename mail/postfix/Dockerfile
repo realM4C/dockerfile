@@ -1,4 +1,5 @@
-FROM debian:jessie-slim
+FROM alpine
+#FROM debian:jessie-slim
 LABEL maintainer "AMSSN <info@amssn.eu>"
 ENV TZ='Europe/Berlin'
 
