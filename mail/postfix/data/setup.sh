@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -ex
 
 apk add --no-cache postfix postfix-mysql postfix-pcre rsyslog tzdata
