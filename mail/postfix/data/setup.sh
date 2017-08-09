@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 
-apk add --no-cache bash postfix postfix-mysql postfix-pcre rsyslog tzdata
+apk add --no-cache postfix postfix-mysql postfix-pcre rsyslog tzdata
 
 cp /tmp/rsyslog.conf /etc/rsyslog.conf
 cp /tmp/conf /etc/postfix
