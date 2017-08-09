@@ -7,5 +7,6 @@ Postfix Subcontainer on Alpine Linux for HA-Mail-Cluster
 
 # Usage:
 
-This container only the corrected TimeZone. Everything else is like the Official MemCached Docker File
-You can read everything at https://hub.docker.com/_/memcached/
+This container only the corrected TimeZone. 
+
+More Details comming soon...
