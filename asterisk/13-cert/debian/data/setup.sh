@@ -6,6 +6,9 @@ function __set_env(){
 	if [ "x" = "x${ASTERISK_USER}" ]	; then ASTERISK_USER="9009"		; fi
 	if [ "x" = "x${ASTERISK_GROUP}" ]	; then ASTERISK_GROUP="9009"		; fi
 	if [ "x" = "x${ASTERISK_TZ}" ]		; then ASTERISK_TZ="Europe/Berlin"	; fi
+	if [ "x" = "x${ASTERISK_VERS}" ]	; then ASTERISK_VERS="13.13-cert5"	; fi
+
+asterisk-certified-13.13-cert5.tar.gz
 	CORES="$(( $(cat /proc/cpuinfo | grep processor | tail -n1 | awk '{print $3}') + 1 ))"
 	MEM="$(cat /proc/meminfo | grep MemTotal | awk '{print $2}') kB"
 	PKGP="-q -y --no-install-recommends"
