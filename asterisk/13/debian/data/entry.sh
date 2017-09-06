@@ -1,8 +1,8 @@
 #!/bin/bash
 function update_ownership(){
-	chown -R ${ASTERISK_USER}:${ASTERISK_GROUP} /etc/asterisk
+	#chown -R ${ASTERISK_USER}:${ASTERISK_GROUP} /etc/asterisk
 	chown -R ${ASTERISK_USER}:${ASTERISK_GROUP} /var/{lib,log,run,spool}/asterisk
-	chown -R ${ASTERISK_USER}:${ASTERISK_GROUP} /usr/lib/asterisk
+	#chown -R ${ASTERISK_USER}:${ASTERISK_GROUP} /usr/lib/asterisk
 	#chown -R ${ASTERISK_USER}:${ASTERISK_GROUP} /dev/zap
 	#chown -R ${ASTERISK_USER}:${ASTERISK_GROUP} /dev/dahdi
 	#chmod -R u=rwX,g=rX,o= /var/lib/asterisk
