@@ -1,3 +1,5 @@
+!WARNING! THIS REPO IS CURRENTLY BROKEN DUE A SSL UPDATE !WARNING!
+
 # Asterisk 13 Certified LTS on Debian Jessie
 Asterisk on Debian without dahdi support
 
