@@ -5,7 +5,8 @@ ENV ASTERISK_UID='9009' \
     ASTERISK_GID='9009' \
     ASTERISK_USER='asterisk' \
     ASTERISK_GROUP='asterisk' \
-    ASTERISK_TZ='Europe/Berlin'
+    ASTERISK_TZ='Europe/Berlin' \
+    ASTERISK_CERT="standart"
 
 ADD data/* /tmp/build/
 
